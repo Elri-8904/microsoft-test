@@ -44,6 +44,7 @@ a{
 }
 .nav-menu-link-R{
     height: 54px;
+    width: 350px;
     color: gray;
 }
 
@@ -309,6 +310,18 @@ nav layout-container>.col>.col-text{
         justify-content:space-between;
         color: #262626;
     }
+    .nav-menu-link-L{
+        display: flex;
+        padding-top: 5px;
+        width: 550px;
+        height: 54px;
+        color: gray;
+    }
+    .nav-menu-link-R{
+        height: 54px;
+        width: 350px;
+        color: gray;
+    }
     .layout-container{
         height: 930px;
         display: flex;
@@ -343,4 +356,18 @@ nav layout-container>.col>.col-text{
     }
 
 
+}
+@media (max-width: 860px){
+    .nav-menu-link-L{
+        display: flex;
+        padding-top: 5px;
+        width: 600px;
+        height: 54px;
+        color: gray;
+    }
+    .nav-menu-link-R{
+        height: 54px;
+        width: 350px;
+        color: gray;
+    }
 }
